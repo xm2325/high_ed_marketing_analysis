@@ -1,0 +1,21 @@
+Guide function,Implemented V5 location,Data mode,Implementation note
+UG applications summary compared to previous cycle,Admissions Operations Monitor > Summary vs previous cycle,Synthetic or authorised upload,Compare current and previous cycle at the selected week with comparable snapshot dates.
+UG applications summary by cycle,Admissions Operations Monitor > Summary by cycle,Synthetic or authorised upload,Compare the selected cycle and up to three historical cycles aggregated by fee status.
+Applications by status,Admissions Operations Monitor > Applications by status,Synthetic or authorised upload,Display new in-review conditional-offer unconditional-offer rejected and withdrawn counts by course and cycle.
+UG applications by status including deferrals,Admissions Operations Monitor > UG deferrals,Synthetic or authorised upload,Separate current-cycle-only deferral view by year of entry and fee status.
+Applications by country of domicile,International Market Monitor,Synthetic demonstration,Filter overseas and pending-fee-assessment records by country of domicile.
+Overseas top markets,International Market Monitor,Synthetic demonstration,Switch between Top 10 Top 25 and All markets.
+Faculty to course hierarchy filters,Admissions Operations Monitor,Synthetic or authorised upload,Cascading Faculty School Department Sub-department and Course filters.
+Fee-status filter,Admissions Operations Monitor,Synthetic or authorised upload,Home Overseas and Pending assessment are retained separately for transparent operational analysis.
+UG academic level of entry,Admissions Operations Monitor,Synthetic or authorised upload,Filter Year 0/1 and Year 2+ records.
+PG taught and PG research split,Admissions Operations Monitor,Synthetic or authorised upload,Switch among Undergraduate Postgraduate taught and Postgraduate research.
+PG month of entry,Admissions Operations Monitor,Synthetic or authorised upload,Filter September January and April entries in demo data.
+PG mode of attendance,Admissions Operations Monitor,Synthetic or authorised upload,Filter FT PT DL FT and DL PT records.
+Paginated course report export,Admissions Operations Monitor > Course export,Synthetic or authorised upload,Download filtered CSV and generate a compact PDF summary.
+Current-week default and comparison dates,Admissions Operations Monitor,Synthetic or authorised upload,Select cycle week and show current-cycle and comparison-cycle snapshot dates.
+Recruitment campaign timeline,Recruitment Campaign Calendar,Official public dates plus editable planning rows,Filter by population phase channel owner and date range; download CSV and ICS.
+UTM tracking builder,Recruitment Campaign Calendar,User-entered planning data,Generate tagged external-campaign URLs and download a tracking row.
+CRM follow-up workflow,CRM Follow-up Queue,Synthetic or authorised upload,Triage leads with consent checks data-quality checks editable thresholds and weekly capacity.
+Digital journey reporting,Digital Journey Analytics Demo,Synthetic GA4-style demonstration,Show acquisition engagement form completion event registration and application metrics.
+CSV schema validation,Admissions Operations Monitor CRM Follow-up Queue and Digital Journey Analytics Demo,Synthetic or authorised upload,Check required columns before any analysis.
+CSV and ICS export,Multiple pages,Public synthetic or authorised upload,Download filtered outputs without storing uploaded files in the repository.
