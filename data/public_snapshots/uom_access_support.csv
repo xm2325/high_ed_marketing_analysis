@@ -1,0 +1,10 @@
+theme,item,detail,source_id
+Access targets,Lower socio-economic groups,Improve access and attainment for students eligible for free school meals or from areas with the highest indicators of deprivation.,uom_access_plan_summary
+Access targets,Ethnic minority groups,Improve access for young Black undergraduate students and attainment for Black and Asian students.,uom_access_plan_summary
+Access targets,Care-experienced students,Improve access rates for care-experienced students.,uom_access_plan_summary
+Financial support,"Manchester Bursary: household income below £35,000","£1,000 annually.",uom_access_plan_summary
+Financial support,"Manchester Bursary: household income below £25,000","£2,000 annually.",uom_access_plan_summary
+Communications,Prospective student information,"Use clear and accessible information through the website, Open Days, online sessions, and outreach activities, particularly in Greater Manchester.",uom_access_plan_summary
+Contextual admissions,Contextual flags,"Manchester uses UCAS form information, including area disadvantage or low HE progression, school performance, care experience, and refugee status.",uom_contextual_admissions
+Contextual admissions,Contextual offers,WP Plus and WP Plus PLUS applicants may receive reduced offers subject to eligibility and course requirements.,uom_contextual_admissions
+Contextual admissions,Travel cost support,"Eligible applicants can receive bus, train, or coach travel support for assessment-related campus visits.",uom_contextual_admissions

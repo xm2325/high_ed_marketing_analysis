@@ -1,0 +1,5 @@
+lead_id,subject_area,course_interest,campaign_source,domicile_group,page_views,last_activity_days,consent_status,email_opened,email_clicked,event_attended,prospectus_downloaded,form_completed,application_submitted
+demo_001,Engineering,BEng Mechanical Engineering,Open Day,International,15,3,yes,True,True,True,True,False,False
+demo_002,Life Sciences,BSc Biomedical Sciences,Webinar,UK,8,12,yes,True,True,False,True,True,False
+demo_003,Business,BSc Management,Paid Search,International,5,35,unknown,True,False,False,False,False,False
+demo_004,Computer Science,BSc Computer Science,School Outreach,UK,10,6,yes,True,True,True,True,True,False

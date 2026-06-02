@@ -1,0 +1,12 @@
+section,metric,value,display_value,unit,reference_period,source_id,notes
+University facts,Students,44000,"More than 44,000",people,Current UoM about page,uom_about,"University public facts and figures page states more than 44,000 students."
+University facts,Staff,12000,"12,000",people,Current UoM about page,uom_about,University public facts and figures page.
+University facts,Alumni,550000,"550,000",people,Current UoM about page,uom_about,University public facts and figures page.
+University facts,Countries represented,190,190,countries,Current UoM about page,uom_about,University public facts and figures page.
+UCAS student profile,UK students,60,60%,percent,UCAS profile for 2026 study year,ucas_uom_stats,"UCAS profile, sourced from HESA."
+UCAS student profile,EU students,4,4%,percent,UCAS profile for 2026 study year,ucas_uom_stats,"UCAS profile, sourced from HESA."
+UCAS student profile,International students,35,35%,percent,UCAS profile for 2026 study year,ucas_uom_stats,"UCAS profile, sourced from HESA. Values are rounded on UCAS."
+UCAS student profile,Undergraduate,67,67%,percent,UCAS profile for 2026 study year,ucas_uom_stats,"UCAS profile, sourced from HESA."
+UCAS student profile,Postgraduate,33,33%,percent,UCAS profile for 2026 study year,ucas_uom_stats,"UCAS profile, sourced from HESA."
+UCAS student profile,Full-time,92,92%,percent,UCAS profile for 2026 study year,ucas_uom_stats,"UCAS profile, sourced from HESA."
+UCAS student profile,Part-time,8,8%,percent,UCAS profile for 2026 study year,ucas_uom_stats,"UCAS profile, sourced from HESA."
