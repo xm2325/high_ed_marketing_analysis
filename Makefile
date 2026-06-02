@@ -1,5 +1,7 @@
-install:
-	python -m pip install -r requirements.txt
+.PHONY: demo test run
+
+demo:
+	python src/generate_demo_data.py
 
 test:
 	pytest -q

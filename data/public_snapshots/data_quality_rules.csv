@@ -1,0 +1,9 @@
+﻿rule_id,applies_to,validation,reason
+source_metadata_required,all_public_data,"Require source_id, source_as_of, checked_at, and notes fields",Avoid mixing snapshots from different publication dates.
+definition_separation,institution_snapshot and UCAS profile,Keep non-EU international headcount separate from UCAS/HESA international domicile percentage,Definitions and source populations differ.
+provisional_badge,A106 and A101 2026 funnel,Show provisional badge and Week 5 note,Official source states figures may change slightly.
+historical_not_forecast,Dentistry and DHT funnel,Show historical-information-only note and disable prediction wording,Official page warns against forecast or applicant strategy use.
+planning_not_actual,APP targets,"Label milestone values as planned target path, not measured current outcome",APP table contains targets and milestones.
+public_demo_no_personal_inference,contextual admission demo,Link to official checker; do not classify user eligibility in public demo,Contextual decisions use personal UCAS data and live definitions.
+survey_not_causal,decliner survey signals,Label as descriptive survey signals; scenario uplift inputs remain editable assumptions,Published survey does not estimate campaign effects.
+clearing_dynamic_link,clearing page,Link to live clearing page instead of caching course availability,Availability changes dynamically.

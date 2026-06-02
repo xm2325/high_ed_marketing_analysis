@@ -1,0 +1,242 @@
+lead_id,population,audience_stage,subject_area,course_interest,campaign_source,utm_campaign,domicile_group,email,consent_status,page_views,last_activity_days,email_opened,email_clicked,form_started,form_completed,event_registered,offer_holder,accommodation_page_view,funding_page_view
+demo_0001,PGT,Prospective student,Business,BSc Management,Organic Search,organic_search_2026,International,student001@example.org,yes,3,20,True,False,False,True,True,False,True,False
+demo_0002,UG,Applicant,Engineering,BEng Mechanical Engineering,Organic Search,organic_search_2026,International,student002@example.org,yes,14,36,True,False,True,False,False,False,False,False
+demo_0003,UG,Prospective student,Business,BSc Management,Clearing Updates,clearing_updates_2026,UK,student003@example.org,yes,0,41,False,True,True,False,False,False,False,False
+demo_0004,UG,Offer-holder,Medicine,MBChB Medicine,Organic Search,organic_search_2026,International,student004@example.org,yes,9,43,True,False,False,True,False,True,False,False
+demo_0005,UG,Applicant,Medicine,MBChB Medicine,Paid Search,paid_search_2026,UK,student005@example.org,yes,25,48,True,True,True,False,False,False,False,False
+demo_0006,UG,Applicant,Engineering,BEng Mechanical Engineering,Email Newsletter,email_newsletter_2026,EU,student006@example.org,no,10,15,False,False,True,False,True,False,False,False
+demo_0007,UG,Prospective student,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,International,student007@example.org,yes,25,47,True,False,True,False,False,False,False,True
+demo_0008,PGT,Applicant,Medicine,MBChB Medicine,Webinar,webinar_2026,International,student008@example.org,yes,21,12,True,False,True,True,True,False,False,False
+demo_0009,UG,Prospective student,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,EU,student009@example.org,yes,8,42,True,False,True,True,False,False,False,False
+demo_0010,UG,Applicant,Computer Science,BSc Computer Science,Email Newsletter,email_newsletter_2026,International,student010@example.org,yes,26,2,True,False,True,False,True,False,False,True
+demo_0011,PGT,Prospective student,Medicine,MBChB Medicine,Webinar,webinar_2026,UK,student011@example.org,yes,3,27,True,True,False,False,False,False,False,False
+demo_0012,UG,Applicant,Business,BSc Management,School Outreach,school_outreach_2026,International,student012@example.org,no,10,26,False,False,False,False,False,False,False,False
+demo_0013,UG,Prospective student,Business,BSc Management,Clearing Updates,clearing_updates_2026,EU,student013@example.org,yes,23,52,True,True,False,False,False,False,False,False
+demo_0014,UG,Prospective student,Medicine,MBChB Medicine,Webinar,webinar_2026,UK,student014@example.org,yes,27,16,True,False,True,False,True,False,True,True
+demo_0015,PGR,Prospective student,Life Sciences,BSc Biomedical Sciences,Clearing Updates,clearing_updates_2026,UK,student015@example.org,yes,8,25,False,True,True,False,False,False,True,False
+demo_0016,UG,Applicant,Business,BSc Management,Open Day,open_day_2026,International,student016@example.org,no,18,41,True,False,False,False,False,False,True,False
+demo_0017,UG,Offer-holder,Computer Science,BSc Computer Science,Clearing Updates,clearing_updates_2026,UK,invalid-email,yes,20,38,True,True,True,False,False,True,False,False
+demo_0018,UG,Prospective student,Business,BSc Management,School Outreach,school_outreach_2026,EU,student018@example.org,yes,15,48,True,True,False,True,False,False,False,False
+demo_0019,UG,Offer-holder,Medicine,MBChB Medicine,Clearing Updates,clearing_updates_2026,UK,student019@example.org,yes,17,31,True,False,True,False,False,True,True,False
+demo_0020,UG,Offer-holder,Business,BSc Management,School Outreach,school_outreach_2026,UK,student020@example.org,no,0,57,False,False,True,False,True,True,False,False
+demo_0021,PGT,Prospective student,Life Sciences,BSc Biomedical Sciences,Organic Search,organic_search_2026,UK,student021@example.org,yes,25,14,False,False,True,False,False,False,True,False
+demo_0022,UG,Offer-holder,Business,BSc Management,School Outreach,school_outreach_2026,International,student022@example.org,yes,1,38,False,False,False,False,False,True,False,False
+demo_0023,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,Paid Search,paid_search_2026,UK,student023@example.org,yes,4,45,True,False,False,False,False,False,True,False
+demo_0024,UG,Prospective student,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,UK,student024@example.org,yes,8,3,True,True,True,False,False,False,False,False
+demo_0025,UG,Offer-holder,Computer Science,BSc Computer Science,Open Day,open_day_2026,UK,student025@example.org,yes,10,48,False,False,True,True,False,True,False,False
+demo_0026,PGT,Applicant,Business,BSc Management,Paid Search,paid_search_2026,UK,student026@example.org,yes,1,21,True,False,False,False,False,False,False,False
+demo_0027,UG,Prospective student,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,UK,student027@example.org,yes,16,39,True,False,False,False,False,False,False,False
+demo_0028,PGT,Applicant,Engineering,BEng Mechanical Engineering,Clearing Updates,clearing_updates_2026,UK,student028@example.org,yes,3,33,True,False,False,False,False,False,False,False
+demo_0029,UG,Offer-holder,Medicine,MBChB Medicine,Organic Search,organic_search_2026,UK,student029@example.org,unknown,2,20,True,False,True,False,True,True,True,False
+demo_0030,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,School Outreach,school_outreach_2026,UK,student030@example.org,unknown,20,0,False,False,False,False,False,False,False,False
+demo_0031,PGR,Applicant,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,International,student031@example.org,yes,20,42,False,False,True,False,True,False,False,False
+demo_0032,UG,Prospective student,Business,BSc Management,Webinar,webinar_2026,UK,student032@example.org,unknown,9,8,True,True,True,True,True,False,True,False
+demo_0033,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,Open Day,open_day_2026,UK,student033@example.org,yes,13,39,True,False,False,False,False,False,False,False
+demo_0034,UG,Prospective student,Humanities,BA French Studies,Open Day,open_day_2026,International,student034@example.org,yes,13,24,False,False,False,False,False,False,False,False
+demo_0035,UG,Prospective student,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,UK,student035@example.org,yes,23,56,True,False,False,False,False,False,False,False
+demo_0036,PGR,Offer-holder,Engineering,BEng Mechanical Engineering,Organic Search,organic_search_2026,UK,student036@example.org,yes,12,45,True,False,False,False,False,True,False,False
+demo_0037,UG,Offer-holder,Engineering,BEng Mechanical Engineering,Webinar,webinar_2026,UK,student037@example.org,yes,15,20,True,True,False,True,False,True,False,False
+demo_0038,PGT,Offer-holder,Humanities,BA French Studies,School Outreach,school_outreach_2026,UK,student038@example.org,yes,18,4,True,False,True,False,False,True,False,False
+demo_0039,UG,Offer-holder,Humanities,BA French Studies,Clearing Updates,clearing_updates_2026,EU,student039@example.org,yes,10,7,False,False,True,True,False,True,False,False
+demo_0040,UG,Prospective student,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,UK,student040@example.org,yes,6,32,True,False,False,False,False,False,False,False
+demo_0041,PGT,Prospective student,Computer Science,BSc Computer Science,Organic Search,organic_search_2026,International,student041@example.org,yes,17,59,False,True,False,True,False,False,False,True
+demo_0042,PGT,Prospective student,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,UK,student042@example.org,yes,21,48,False,False,True,False,False,False,False,False
+demo_0043,PGT,Applicant,Business,BSc Management,School Outreach,school_outreach_2026,UK,student043@example.org,yes,7,0,True,True,False,True,False,False,False,False
+demo_0044,PGR,Applicant,Business,BSc Management,Paid Search,paid_search_2026,EU,invalid-email,yes,22,20,True,True,False,False,True,False,False,False
+demo_0045,UG,Prospective student,Medicine,MBChB Medicine,Open Day,open_day_2026,International,student045@example.org,yes,5,6,False,False,False,False,True,False,True,False
+demo_0046,UG,Prospective student,Engineering,BEng Mechanical Engineering,Email Newsletter,email_newsletter_2026,UK,student046@example.org,unknown,27,59,True,True,True,True,False,False,False,True
+demo_0047,UG,Prospective student,Humanities,BA French Studies,School Outreach,school_outreach_2026,UK,student047@example.org,yes,10,22,False,False,False,False,False,False,False,False
+demo_0048,UG,Applicant,Business,BSc Management,Paid Search,paid_search_2026,EU,student048@example.org,yes,11,7,False,False,False,False,True,False,False,False
+demo_0049,UG,Prospective student,Computer Science,BSc Computer Science,Clearing Updates,clearing_updates_2026,UK,student049@example.org,yes,15,51,False,False,True,False,False,False,False,True
+demo_0050,UG,Prospective student,Humanities,BA French Studies,Paid Search,paid_search_2026,UK,student050@example.org,yes,26,39,True,True,True,False,False,False,False,False
+demo_0051,UG,Applicant,Medicine,MBChB Medicine,Clearing Updates,clearing_updates_2026,International,student051@example.org,no,21,24,True,False,False,True,False,False,False,False
+demo_0052,UG,Applicant,Humanities,BA French Studies,Clearing Updates,clearing_updates_2026,UK,student052@example.org,yes,0,18,False,True,True,False,True,False,False,False
+demo_0053,UG,Offer-holder,Computer Science,BSc Computer Science,Clearing Updates,clearing_updates_2026,International,student053@example.org,yes,9,44,True,False,False,False,False,True,False,False
+demo_0054,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,Clearing Updates,clearing_updates_2026,UK,student054@example.org,unknown,4,34,False,False,True,False,True,False,False,True
+demo_0055,UG,Applicant,Computer Science,BSc Computer Science,Organic Search,organic_search_2026,UK,student055@example.org,yes,10,7,False,False,True,True,False,False,False,False
+demo_0056,UG,Prospective student,Computer Science,BSc Computer Science,Open Day,open_day_2026,International,student056@example.org,yes,9,32,True,False,True,False,False,False,True,False
+demo_0057,UG,Prospective student,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,EU,student057@example.org,yes,24,36,True,False,True,True,False,False,False,False
+demo_0058,UG,Prospective student,Humanities,BA French Studies,School Outreach,school_outreach_2026,International,student058@example.org,yes,25,16,True,True,True,False,True,False,False,True
+demo_0059,UG,Clearing registrant,Medicine,MBChB Medicine,Open Day,open_day_2026,UK,student059@example.org,yes,21,12,True,False,False,False,False,False,False,False
+demo_0060,UG,Offer-holder,Humanities,BA French Studies,Organic Search,organic_search_2026,EU,student060@example.org,yes,3,53,True,False,False,False,False,True,False,False
+demo_0061,UG,Offer-holder,Medicine,MBChB Medicine,Organic Search,organic_search_2026,UK,student061@example.org,yes,21,53,False,False,True,False,True,True,False,False
+demo_0062,UG,Offer-holder,Life Sciences,BSc Biomedical Sciences,Email Newsletter,email_newsletter_2026,UK,student062@example.org,yes,23,43,False,False,False,False,False,True,False,True
+demo_0063,PGT,Offer-holder,Medicine,MBChB Medicine,Webinar,webinar_2026,UK,student063@example.org,yes,9,35,True,True,True,False,True,True,False,False
+demo_0064,UG,Applicant,Business,BSc Management,School Outreach,school_outreach_2026,International,student064@example.org,yes,3,53,True,False,True,True,False,False,True,False
+demo_0065,UG,Applicant,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,UK,student065@example.org,yes,23,53,False,False,True,True,True,False,False,False
+demo_0066,UG,Applicant,Medicine,MBChB Medicine,Clearing Updates,clearing_updates_2026,UK,student066@example.org,yes,16,12,False,True,False,False,False,False,False,False
+demo_0067,PGT,Prospective student,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,UK,student067@example.org,no,10,19,True,True,True,True,True,False,True,True
+demo_0068,UG,Prospective student,Business,BSc Management,Email Newsletter,email_newsletter_2026,UK,student068@example.org,yes,0,16,False,False,False,False,False,False,True,True
+demo_0069,UG,Clearing registrant,Humanities,BA French Studies,Webinar,webinar_2026,International,student069@example.org,yes,24,32,False,False,True,True,False,False,False,False
+demo_0070,UG,Prospective student,Business,BSc Management,Paid Search,paid_search_2026,International,student070@example.org,yes,11,33,True,True,True,True,True,False,True,False
+demo_0071,PGR,Prospective student,Humanities,BA French Studies,Clearing Updates,clearing_updates_2026,International,student071@example.org,no,26,32,True,True,True,False,True,False,False,False
+demo_0072,UG,Offer-holder,Humanities,BA French Studies,School Outreach,school_outreach_2026,International,student072@example.org,yes,17,40,False,True,False,False,True,True,True,False
+demo_0073,PGR,Prospective student,Engineering,BEng Mechanical Engineering,Webinar,webinar_2026,UK,student073@example.org,yes,8,36,False,False,False,False,True,False,True,False
+demo_0074,PGT,Offer-holder,Humanities,BA French Studies,Open Day,open_day_2026,International,student074@example.org,yes,23,43,True,True,False,False,False,True,False,False
+demo_0075,PGR,Applicant,Business,BSc Management,Webinar,webinar_2026,UK,student075@example.org,yes,14,44,False,True,False,False,False,False,True,False
+demo_0076,PGT,Prospective student,Business,BSc Management,Email Newsletter,email_newsletter_2026,International,student076@example.org,yes,9,10,False,True,True,False,False,False,False,False
+demo_0077,UG,Offer-holder,Life Sciences,BSc Biomedical Sciences,Paid Search,paid_search_2026,International,student077@example.org,no,10,17,False,True,True,True,True,True,False,False
+demo_0078,UG,Offer-holder,Computer Science,BSc Computer Science,Clearing Updates,clearing_updates_2026,UK,student078@example.org,yes,15,40,True,False,False,True,False,True,False,False
+demo_0079,UG,Applicant,Life Sciences,BSc Biomedical Sciences,Email Newsletter,email_newsletter_2026,UK,student079@example.org,yes,8,3,False,False,True,False,False,False,False,True
+demo_0080,UG,Prospective student,Humanities,BA French Studies,Open Day,open_day_2026,UK,student080@example.org,yes,16,47,False,True,True,True,True,False,False,True
+demo_0081,UG,Offer-holder,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,UK,student081@example.org,unknown,12,57,True,False,False,False,False,True,False,True
+demo_0082,UG,Applicant,Computer Science,BSc Computer Science,Open Day,open_day_2026,UK,student082@example.org,yes,17,41,False,True,True,False,False,False,False,False
+demo_0083,UG,Offer-holder,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,International,student083@example.org,yes,3,55,False,False,False,True,False,True,True,False
+demo_0084,UG,Prospective student,Business,BSc Management,Email Newsletter,email_newsletter_2026,International,invalid-email,yes,15,9,False,False,True,True,False,False,False,False
+demo_0085,UG,Offer-holder,Engineering,BEng Mechanical Engineering,Paid Search,paid_search_2026,International,student085@example.org,no,18,18,False,False,False,False,False,True,False,False
+demo_0086,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,Email Newsletter,email_newsletter_2026,International,student086@example.org,unknown,11,46,False,False,True,False,False,False,False,False
+demo_0087,UG,Offer-holder,Computer Science,BSc Computer Science,Clearing Updates,clearing_updates_2026,UK,student087@example.org,yes,27,25,True,False,False,True,False,True,False,False
+demo_0088,UG,Prospective student,Humanities,BA French Studies,Email Newsletter,email_newsletter_2026,EU,student088@example.org,yes,15,34,True,True,False,True,False,False,False,False
+demo_0089,PGT,Offer-holder,Life Sciences,BSc Biomedical Sciences,Open Day,open_day_2026,UK,student089@example.org,yes,11,32,True,True,False,False,False,True,True,False
+demo_0090,UG,Clearing registrant,Medicine,MBChB Medicine,Paid Search,paid_search_2026,UK,student090@example.org,unknown,22,47,True,False,True,False,True,False,False,False
+demo_0091,PGT,Clearing registrant,Life Sciences,BSc Biomedical Sciences,Organic Search,organic_search_2026,EU,student091@example.org,yes,10,60,False,False,False,True,False,False,False,False
+demo_0092,UG,Applicant,Business,BSc Management,Paid Search,paid_search_2026,UK,invalid-email,yes,11,15,True,True,False,True,False,False,True,False
+demo_0093,UG,Applicant,Humanities,BA French Studies,Organic Search,organic_search_2026,UK,student093@example.org,yes,16,22,False,False,False,False,True,False,False,True
+demo_0094,UG,Applicant,Engineering,BEng Mechanical Engineering,Organic Search,organic_search_2026,International,student094@example.org,yes,7,3,True,False,True,True,False,False,False,True
+demo_0095,PGT,Prospective student,Medicine,MBChB Medicine,School Outreach,school_outreach_2026,UK,student095@example.org,yes,15,45,True,True,True,False,False,False,False,False
+demo_0096,UG,Applicant,Computer Science,BSc Computer Science,Clearing Updates,clearing_updates_2026,International,student096@example.org,yes,12,52,True,False,False,False,False,False,True,True
+demo_0097,UG,Clearing registrant,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,UK,student097@example.org,yes,13,38,True,False,True,False,False,False,True,True
+demo_0098,UG,Applicant,Medicine,MBChB Medicine,Open Day,open_day_2026,International,student098@example.org,unknown,18,12,False,False,True,False,True,False,False,False
+demo_0099,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,School Outreach,school_outreach_2026,UK,student099@example.org,yes,23,10,True,False,False,True,False,False,False,False
+demo_0100,UG,Applicant,Humanities,BA French Studies,Webinar,webinar_2026,International,student100@example.org,yes,14,47,True,False,True,True,False,False,False,False
+demo_0101,PGR,Applicant,Medicine,MBChB Medicine,Organic Search,organic_search_2026,UK,student101@example.org,yes,19,39,True,True,True,False,True,False,False,True
+demo_0102,UG,Applicant,Life Sciences,BSc Biomedical Sciences,Clearing Updates,clearing_updates_2026,International,student102@example.org,yes,9,36,True,True,False,False,False,False,False,False
+demo_0103,UG,Prospective student,Medicine,MBChB Medicine,Open Day,open_day_2026,UK,student103@example.org,yes,12,13,False,False,False,False,False,False,False,False
+demo_0104,UG,Offer-holder,Computer Science,BSc Computer Science,Webinar,webinar_2026,UK,student104@example.org,yes,19,7,True,False,True,True,True,True,False,False
+demo_0105,UG,Prospective student,Humanities,BA French Studies,Open Day,open_day_2026,UK,student105@example.org,yes,1,39,False,False,False,True,True,False,False,False
+demo_0106,UG,Prospective student,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,International,student106@example.org,yes,2,32,False,True,True,False,False,False,False,True
+demo_0107,PGR,Applicant,Medicine,MBChB Medicine,Email Newsletter,email_newsletter_2026,International,student107@example.org,yes,14,58,True,False,False,False,False,False,False,True
+demo_0108,PGT,Clearing registrant,Medicine,MBChB Medicine,Paid Search,paid_search_2026,UK,student108@example.org,yes,22,56,True,False,True,False,False,False,False,False
+demo_0109,UG,Applicant,Computer Science,BSc Computer Science,Webinar,webinar_2026,UK,invalid-email,yes,21,4,True,False,True,True,True,False,True,False
+demo_0110,UG,Applicant,Humanities,BA French Studies,Webinar,webinar_2026,UK,student110@example.org,yes,20,56,True,True,False,False,False,False,False,True
+demo_0111,UG,Prospective student,Business,BSc Management,Clearing Updates,clearing_updates_2026,EU,student111@example.org,yes,19,8,True,False,False,True,False,False,False,False
+demo_0112,UG,Prospective student,Medicine,MBChB Medicine,Open Day,open_day_2026,UK,student112@example.org,yes,6,47,False,False,False,False,False,False,False,False
+demo_0113,PGR,Prospective student,Life Sciences,BSc Biomedical Sciences,Email Newsletter,email_newsletter_2026,EU,student113@example.org,unknown,23,40,False,False,False,True,False,False,True,False
+demo_0114,UG,Clearing registrant,Life Sciences,BSc Biomedical Sciences,Open Day,open_day_2026,International,student114@example.org,yes,26,16,True,False,False,False,False,False,False,False
+demo_0115,UG,Prospective student,Computer Science,BSc Computer Science,Email Newsletter,email_newsletter_2026,UK,student115@example.org,yes,14,46,False,True,False,True,False,False,False,False
+demo_0116,PGR,Offer-holder,Life Sciences,BSc Biomedical Sciences,Webinar,webinar_2026,International,student116@example.org,yes,0,36,True,False,True,True,False,True,False,False
+demo_0117,PGT,Prospective student,Humanities,BA French Studies,Open Day,open_day_2026,UK,student117@example.org,yes,11,56,True,False,False,False,False,False,False,False
+demo_0118,UG,Applicant,Humanities,BA French Studies,Email Newsletter,email_newsletter_2026,UK,student118@example.org,yes,24,43,False,False,True,False,False,False,False,True
+demo_0119,UG,Clearing registrant,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,UK,student119@example.org,yes,27,13,True,False,True,True,True,False,False,False
+demo_0120,UG,Applicant,Business,BSc Management,Webinar,webinar_2026,International,student120@example.org,yes,24,57,True,False,True,True,True,False,False,False
+demo_0121,UG,Applicant,Life Sciences,BSc Biomedical Sciences,Open Day,open_day_2026,International,student121@example.org,yes,22,12,True,False,False,False,True,False,False,False
+demo_0122,PGR,Prospective student,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,International,student122@example.org,yes,26,7,False,False,True,False,False,False,False,False
+demo_0123,UG,Prospective student,Humanities,BA French Studies,School Outreach,school_outreach_2026,International,student123@example.org,yes,5,37,True,False,False,False,False,False,False,False
+demo_0124,UG,Prospective student,Computer Science,BSc Computer Science,Organic Search,organic_search_2026,UK,student124@example.org,yes,9,17,True,False,False,True,True,False,False,True
+demo_0125,UG,Offer-holder,Business,BSc Management,Organic Search,organic_search_2026,EU,student125@example.org,yes,7,53,True,True,True,False,False,True,False,False
+demo_0126,UG,Clearing registrant,Humanities,BA French Studies,Paid Search,paid_search_2026,UK,student126@example.org,yes,23,58,False,False,False,True,False,False,False,False
+demo_0127,UG,Offer-holder,Medicine,MBChB Medicine,Organic Search,organic_search_2026,UK,student127@example.org,yes,14,24,False,True,True,False,False,True,False,False
+demo_0128,UG,Applicant,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,UK,student128@example.org,unknown,12,27,True,True,False,True,False,False,False,False
+demo_0129,UG,Clearing registrant,Medicine,MBChB Medicine,Paid Search,paid_search_2026,EU,student129@example.org,yes,21,40,True,True,True,False,False,False,False,False
+demo_0130,UG,Clearing registrant,Humanities,BA French Studies,Paid Search,paid_search_2026,UK,student130@example.org,yes,22,42,True,False,False,True,True,False,False,False
+demo_0131,UG,Applicant,Humanities,BA French Studies,Email Newsletter,email_newsletter_2026,UK,student131@example.org,yes,24,3,False,False,True,False,True,False,True,True
+demo_0132,PGT,Prospective student,Life Sciences,BSc Biomedical Sciences,Paid Search,paid_search_2026,International,student132@example.org,yes,1,41,True,False,True,False,False,False,False,True
+demo_0133,PGT,Clearing registrant,Medicine,MBChB Medicine,Clearing Updates,clearing_updates_2026,UK,student133@example.org,unknown,18,44,True,False,True,False,False,False,False,False
+demo_0134,UG,Prospective student,Humanities,BA French Studies,Paid Search,paid_search_2026,International,student134@example.org,yes,12,23,True,True,True,False,False,False,False,False
+demo_0135,UG,Prospective student,Humanities,BA French Studies,Clearing Updates,clearing_updates_2026,UK,student135@example.org,unknown,24,41,True,True,True,False,False,False,True,False
+demo_0136,UG,Applicant,Medicine,MBChB Medicine,Clearing Updates,clearing_updates_2026,EU,student136@example.org,yes,23,54,True,True,True,True,False,False,False,False
+demo_0137,UG,Applicant,Medicine,MBChB Medicine,Paid Search,paid_search_2026,International,student137@example.org,yes,13,52,True,False,False,False,False,False,True,False
+demo_0138,PGT,Applicant,Humanities,BA French Studies,Open Day,open_day_2026,UK,student138@example.org,yes,2,24,False,True,False,False,False,False,False,False
+demo_0139,PGT,Prospective student,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,International,invalid-email,yes,20,49,True,False,False,False,True,False,False,True
+demo_0140,UG,Prospective student,Medicine,MBChB Medicine,Webinar,webinar_2026,EU,student140@example.org,no,24,7,False,True,True,False,False,False,True,False
+demo_0141,UG,Offer-holder,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,UK,student141@example.org,yes,18,30,True,True,True,True,False,True,False,False
+demo_0142,UG,Applicant,Business,BSc Management,Organic Search,organic_search_2026,International,student142@example.org,yes,11,3,True,False,False,False,False,False,False,True
+demo_0143,UG,Offer-holder,Medicine,MBChB Medicine,School Outreach,school_outreach_2026,International,student143@example.org,yes,24,53,False,False,True,False,False,True,True,False
+demo_0144,UG,Prospective student,Business,BSc Management,Email Newsletter,email_newsletter_2026,International,student144@example.org,yes,14,40,False,True,False,False,True,False,False,False
+demo_0145,PGT,Applicant,Computer Science,BSc Computer Science,Open Day,open_day_2026,International,student145@example.org,yes,7,25,False,False,True,False,False,False,False,False
+demo_0146,UG,Applicant,Humanities,BA French Studies,Email Newsletter,email_newsletter_2026,International,student146@example.org,yes,27,57,True,True,False,True,True,False,False,False
+demo_0147,UG,Applicant,Business,BSc Management,School Outreach,school_outreach_2026,International,student147@example.org,yes,6,39,True,True,True,False,False,False,False,False
+demo_0148,PGT,Prospective student,Medicine,MBChB Medicine,Paid Search,paid_search_2026,UK,student148@example.org,yes,1,17,False,True,True,False,False,False,False,False
+demo_0149,UG,Offer-holder,Business,BSc Management,Email Newsletter,email_newsletter_2026,International,student149@example.org,yes,25,24,False,False,False,True,False,True,False,True
+demo_0150,UG,Applicant,Humanities,BA French Studies,Open Day,open_day_2026,UK,student150@example.org,yes,8,34,True,False,False,True,False,False,False,False
+demo_0151,UG,Prospective student,Business,BSc Management,Paid Search,paid_search_2026,UK,student151@example.org,yes,13,37,True,False,True,True,False,False,False,False
+demo_0152,UG,Prospective student,Humanities,BA French Studies,Clearing Updates,clearing_updates_2026,International,student152@example.org,yes,0,45,True,True,False,True,True,False,True,True
+demo_0153,PGT,Applicant,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,UK,student153@example.org,unknown,25,45,False,False,False,False,False,False,False,True
+demo_0154,UG,Offer-holder,Life Sciences,BSc Biomedical Sciences,School Outreach,school_outreach_2026,UK,student154@example.org,yes,26,52,True,False,True,False,False,True,False,False
+demo_0155,PGR,Prospective student,Life Sciences,BSc Biomedical Sciences,School Outreach,school_outreach_2026,UK,student155@example.org,unknown,19,1,True,False,True,False,False,False,False,True
+demo_0156,UG,Applicant,Business,BSc Management,Clearing Updates,clearing_updates_2026,International,student156@example.org,yes,0,31,True,False,True,True,False,False,False,False
+demo_0157,UG,Prospective student,Business,BSc Management,Paid Search,paid_search_2026,EU,student157@example.org,yes,12,40,True,True,False,True,True,False,True,False
+demo_0158,UG,Applicant,Medicine,MBChB Medicine,School Outreach,school_outreach_2026,International,student158@example.org,yes,23,10,False,False,False,True,False,False,False,True
+demo_0159,UG,Offer-holder,Humanities,BA French Studies,Paid Search,paid_search_2026,UK,student159@example.org,no,10,0,False,True,True,True,False,True,False,True
+demo_0160,UG,Prospective student,Engineering,BEng Mechanical Engineering,Webinar,webinar_2026,UK,student160@example.org,unknown,17,41,True,False,False,True,False,False,False,True
+demo_0161,UG,Applicant,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,UK,student161@example.org,yes,8,16,True,False,False,True,False,False,False,False
+demo_0162,PGR,Prospective student,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,UK,student162@example.org,no,10,7,False,False,False,False,False,False,True,False
+demo_0163,PGT,Prospective student,Business,BSc Management,Clearing Updates,clearing_updates_2026,UK,student163@example.org,yes,4,1,False,False,True,True,True,False,False,False
+demo_0164,UG,Prospective student,Computer Science,BSc Computer Science,Webinar,webinar_2026,UK,student164@example.org,yes,13,12,True,False,True,True,True,False,True,False
+demo_0165,UG,Offer-holder,Business,BSc Management,Clearing Updates,clearing_updates_2026,UK,student165@example.org,yes,10,11,True,False,True,False,False,True,False,False
+demo_0166,UG,Prospective student,Medicine,MBChB Medicine,Organic Search,organic_search_2026,UK,student166@example.org,unknown,3,13,True,True,True,False,False,False,False,False
+demo_0167,UG,Applicant,Engineering,BEng Mechanical Engineering,Clearing Updates,clearing_updates_2026,International,invalid-email,yes,24,34,True,False,False,False,False,False,False,False
+demo_0168,UG,Prospective student,Medicine,MBChB Medicine,Clearing Updates,clearing_updates_2026,UK,student168@example.org,yes,4,23,True,False,True,True,False,False,False,False
+demo_0169,UG,Prospective student,Engineering,BEng Mechanical Engineering,Clearing Updates,clearing_updates_2026,EU,student169@example.org,unknown,15,41,False,False,True,False,False,False,False,False
+demo_0170,PGT,Prospective student,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,UK,student170@example.org,yes,6,37,False,True,False,False,False,False,False,False
+demo_0171,UG,Applicant,Business,BSc Management,Organic Search,organic_search_2026,UK,student171@example.org,yes,4,10,True,True,True,False,False,False,True,False
+demo_0172,UG,Clearing registrant,Computer Science,BSc Computer Science,Email Newsletter,email_newsletter_2026,EU,student172@example.org,no,16,57,True,False,False,False,False,False,False,False
+demo_0173,PGT,Offer-holder,Medicine,MBChB Medicine,School Outreach,school_outreach_2026,EU,student173@example.org,yes,14,10,False,True,False,True,False,True,False,True
+demo_0174,UG,Applicant,Business,BSc Management,School Outreach,school_outreach_2026,UK,student174@example.org,yes,9,8,True,False,False,False,False,False,False,False
+demo_0175,UG,Applicant,Computer Science,BSc Computer Science,Paid Search,paid_search_2026,UK,student175@example.org,yes,8,53,False,True,True,True,False,False,False,False
+demo_0176,UG,Prospective student,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,International,student176@example.org,yes,21,33,False,True,False,True,False,False,False,False
+demo_0177,UG,Clearing registrant,Business,BSc Management,Webinar,webinar_2026,UK,student177@example.org,yes,4,30,True,True,False,False,True,False,False,False
+demo_0178,UG,Prospective student,Medicine,MBChB Medicine,Clearing Updates,clearing_updates_2026,UK,student178@example.org,yes,26,19,True,True,False,False,False,False,False,False
+demo_0179,UG,Prospective student,Humanities,BA French Studies,Paid Search,paid_search_2026,UK,student179@example.org,yes,7,37,True,False,True,False,True,False,False,False
+demo_0180,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,Paid Search,paid_search_2026,UK,invalid-email,yes,7,45,False,True,True,False,False,False,True,False
+demo_0181,UG,Prospective student,Business,BSc Management,Clearing Updates,clearing_updates_2026,International,student181@example.org,unknown,18,8,True,True,False,False,False,False,True,False
+demo_0182,UG,Applicant,Life Sciences,BSc Biomedical Sciences,Organic Search,organic_search_2026,EU,student182@example.org,yes,18,28,True,False,False,True,False,False,False,False
+demo_0183,UG,Prospective student,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,UK,student183@example.org,yes,20,55,True,False,True,False,True,False,False,True
+demo_0184,UG,Applicant,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,UK,student184@example.org,no,9,38,False,False,False,True,False,False,True,False
+demo_0185,UG,Prospective student,Engineering,BEng Mechanical Engineering,Email Newsletter,email_newsletter_2026,International,student185@example.org,yes,3,51,True,False,False,False,True,False,False,True
+demo_0186,UG,Applicant,Business,BSc Management,Open Day,open_day_2026,UK,student186@example.org,yes,19,27,False,False,True,False,False,False,False,False
+demo_0187,PGT,Clearing registrant,Business,BSc Management,School Outreach,school_outreach_2026,UK,student187@example.org,yes,23,44,True,False,False,True,True,False,False,False
+demo_0188,PGT,Prospective student,Life Sciences,BSc Biomedical Sciences,Paid Search,paid_search_2026,UK,student188@example.org,no,24,21,True,True,True,False,False,False,False,True
+demo_0189,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,Webinar,webinar_2026,International,student189@example.org,yes,0,56,False,False,False,False,False,False,True,False
+demo_0190,UG,Offer-holder,Humanities,BA French Studies,Clearing Updates,clearing_updates_2026,International,student190@example.org,no,7,21,True,False,True,True,False,True,False,False
+demo_0191,UG,Applicant,Computer Science,BSc Computer Science,Clearing Updates,clearing_updates_2026,UK,student191@example.org,yes,22,28,True,True,True,True,True,False,False,False
+demo_0192,UG,Applicant,Engineering,BEng Mechanical Engineering,Organic Search,organic_search_2026,UK,student192@example.org,yes,2,13,True,False,True,False,False,False,False,False
+demo_0193,UG,Offer-holder,Computer Science,BSc Computer Science,Organic Search,organic_search_2026,UK,student193@example.org,yes,8,49,True,False,True,False,False,True,False,False
+demo_0194,UG,Offer-holder,Engineering,BEng Mechanical Engineering,Webinar,webinar_2026,EU,student194@example.org,yes,22,53,True,False,False,True,False,True,False,False
+demo_0195,UG,Applicant,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,International,student195@example.org,yes,3,30,False,True,True,False,False,False,False,False
+demo_0196,UG,Applicant,Business,BSc Management,Open Day,open_day_2026,UK,student196@example.org,yes,3,21,True,False,False,False,False,False,False,True
+demo_0197,UG,Offer-holder,Computer Science,BSc Computer Science,Webinar,webinar_2026,UK,student197@example.org,yes,10,29,True,False,True,True,False,True,True,False
+demo_0198,UG,Clearing registrant,Life Sciences,BSc Biomedical Sciences,Open Day,open_day_2026,UK,student198@example.org,yes,16,47,True,False,True,False,False,False,False,False
+demo_0199,UG,Applicant,Life Sciences,BSc Biomedical Sciences,Clearing Updates,clearing_updates_2026,UK,student199@example.org,yes,26,31,True,False,True,False,True,False,False,False
+demo_0200,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,Webinar,webinar_2026,International,student200@example.org,unknown,27,38,True,True,False,False,False,False,True,True
+demo_0201,PGT,Clearing registrant,Engineering,BEng Mechanical Engineering,Open Day,open_day_2026,UK,student201@example.org,yes,3,59,True,True,False,True,False,False,False,False
+demo_0202,UG,Offer-holder,Medicine,MBChB Medicine,Clearing Updates,clearing_updates_2026,International,student202@example.org,yes,21,7,True,True,False,False,False,True,False,False
+demo_0203,UG,Applicant,Business,BSc Management,Open Day,open_day_2026,UK,student203@example.org,yes,11,38,False,True,True,False,False,False,False,False
+demo_0204,PGR,Applicant,Life Sciences,BSc Biomedical Sciences,Organic Search,organic_search_2026,UK,student204@example.org,no,20,43,False,True,False,False,False,False,False,False
+demo_0205,UG,Applicant,Computer Science,BSc Computer Science,Open Day,open_day_2026,UK,student205@example.org,yes,18,52,True,True,False,False,False,False,False,True
+demo_0206,UG,Applicant,Computer Science,BSc Computer Science,Organic Search,organic_search_2026,UK,student206@example.org,yes,26,24,False,False,True,True,False,False,True,False
+demo_0207,UG,Prospective student,Engineering,BEng Mechanical Engineering,School Outreach,school_outreach_2026,UK,student207@example.org,yes,12,0,True,False,False,False,False,False,False,False
+demo_0208,PGT,Clearing registrant,Engineering,BEng Mechanical Engineering,Webinar,webinar_2026,UK,student208@example.org,yes,26,47,True,False,True,True,False,False,False,False
+demo_0209,UG,Applicant,Life Sciences,BSc Biomedical Sciences,Organic Search,organic_search_2026,UK,student209@example.org,yes,27,23,True,False,False,False,False,False,False,False
+demo_0210,UG,Prospective student,Computer Science,BSc Computer Science,Open Day,open_day_2026,UK,student210@example.org,yes,0,24,False,False,True,False,False,False,False,False
+demo_0211,UG,Applicant,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,UK,student211@example.org,yes,20,17,True,False,True,False,False,False,False,False
+demo_0212,UG,Prospective student,Humanities,BA French Studies,Clearing Updates,clearing_updates_2026,EU,student212@example.org,yes,15,34,True,False,True,True,True,False,False,False
+demo_0213,PGT,Applicant,Humanities,BA French Studies,Organic Search,organic_search_2026,International,student213@example.org,unknown,6,14,True,False,False,False,True,False,False,False
+demo_0214,UG,Applicant,Life Sciences,BSc Biomedical Sciences,Organic Search,organic_search_2026,International,student214@example.org,yes,12,32,True,False,False,False,True,False,False,False
+demo_0215,PGT,Clearing registrant,Business,BSc Management,Paid Search,paid_search_2026,UK,student215@example.org,yes,22,24,False,False,False,True,True,False,False,False
+demo_0216,UG,Applicant,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,International,student216@example.org,yes,7,30,True,False,True,False,False,False,False,False
+demo_0217,UG,Clearing registrant,Computer Science,BSc Computer Science,Organic Search,organic_search_2026,UK,student217@example.org,yes,13,43,True,False,False,True,False,False,False,False
+demo_0218,UG,Prospective student,Business,BSc Management,Clearing Updates,clearing_updates_2026,UK,student218@example.org,yes,21,35,False,False,True,True,True,False,False,False
+demo_0219,UG,Prospective student,Humanities,BA French Studies,Webinar,webinar_2026,UK,student219@example.org,yes,4,1,True,True,False,False,False,False,False,False
+demo_0220,PGT,Applicant,Humanities,BA French Studies,Email Newsletter,email_newsletter_2026,UK,student220@example.org,yes,27,39,True,False,False,False,False,False,False,False
+demo_0221,PGR,Prospective student,Medicine,MBChB Medicine,Open Day,open_day_2026,UK,student221@example.org,yes,12,42,False,False,True,False,False,False,False,True
+demo_0222,UG,Applicant,Life Sciences,BSc Biomedical Sciences,Clearing Updates,clearing_updates_2026,International,student222@example.org,yes,13,10,False,False,True,True,True,False,False,False
+demo_0223,UG,Applicant,Humanities,BA French Studies,Open Day,open_day_2026,UK,student223@example.org,yes,14,49,True,False,False,False,False,False,False,False
+demo_0224,PGR,Prospective student,Life Sciences,BSc Biomedical Sciences,Email Newsletter,email_newsletter_2026,EU,student224@example.org,yes,7,26,True,False,True,False,False,False,False,True
+demo_0225,UG,Prospective student,Humanities,BA French Studies,Email Newsletter,email_newsletter_2026,UK,student225@example.org,yes,19,22,False,False,False,False,True,False,True,False
+demo_0226,UG,Offer-holder,Medicine,MBChB Medicine,School Outreach,school_outreach_2026,International,student226@example.org,yes,18,7,False,False,False,True,False,True,True,False
+demo_0227,UG,Prospective student,Life Sciences,BSc Biomedical Sciences,Open Day,open_day_2026,International,student227@example.org,yes,27,49,False,True,False,False,True,False,False,True
+demo_0228,UG,Applicant,Engineering,BEng Mechanical Engineering,Email Newsletter,email_newsletter_2026,UK,student228@example.org,yes,19,44,True,False,True,False,False,False,True,False
+demo_0229,PGR,Prospective student,Life Sciences,BSc Biomedical Sciences,Organic Search,organic_search_2026,International,student229@example.org,yes,24,38,True,True,True,True,True,False,False,False
+demo_0230,PGT,Offer-holder,Engineering,BEng Mechanical Engineering,Webinar,webinar_2026,International,student230@example.org,yes,26,13,True,False,False,False,False,True,False,False
+demo_0231,UG,Offer-holder,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,UK,student231@example.org,yes,23,44,True,False,True,False,False,True,False,False
+demo_0232,UG,Offer-holder,Computer Science,BSc Computer Science,Webinar,webinar_2026,International,student232@example.org,yes,0,52,False,False,True,False,False,True,False,False
+demo_0233,PGR,Offer-holder,Business,BSc Management,Webinar,webinar_2026,EU,student233@example.org,yes,10,56,False,True,False,False,False,True,False,True
+demo_0234,UG,Prospective student,Engineering,BEng Mechanical Engineering,School Outreach,school_outreach_2026,UK,student234@example.org,yes,26,58,True,True,True,False,False,False,True,True
+demo_0235,UG,Prospective student,Engineering,BEng Mechanical Engineering,Organic Search,organic_search_2026,UK,student235@example.org,yes,23,28,True,True,True,True,True,False,False,False
+demo_0236,PGT,Clearing registrant,Business,BSc Management,Paid Search,paid_search_2026,International,student236@example.org,yes,16,49,True,False,False,True,False,False,False,True
+demo_0237,UG,Clearing registrant,Business,BSc Management,Clearing Updates,clearing_updates_2026,UK,student237@example.org,yes,8,36,False,True,True,False,False,False,False,False
+demo_0238,UG,Applicant,Medicine,MBChB Medicine,Email Newsletter,email_newsletter_2026,UK,student238@example.org,yes,9,37,False,False,True,False,False,False,False,False
+demo_0239,PGR,Prospective student,Computer Science,BSc Computer Science,School Outreach,school_outreach_2026,International,student239@example.org,no,10,19,True,False,True,False,False,False,True,False
+demo_0240,UG,Prospective student,Business,BSc Management,Email Newsletter,email_newsletter_2026,UK,student240@example.org,yes,27,15,False,False,True,False,False,False,False,False
+demo_0008,PGT,Applicant,Medicine,MBChB Medicine,Webinar,webinar_2026,International,student008@example.org,yes,21,12,True,False,True,True,True,False,False,False

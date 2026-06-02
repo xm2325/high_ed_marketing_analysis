@@ -1,0 +1,41 @@
+﻿program,ucas_code,entry_year,domicile,applications,shortlisted_for_interview,offers_made,publication_status,source_id,checked_at,notes
+MBChB Medicine (5 years),A106,2026,Home,2607,1667,985,provisional_week_5,uom_medicine_application_data,2026-06-02,Applications marked Week 5 on source page; figures may change slightly.
+MBChB Medicine (5 years),A106,2026,Overseas,1036,191,40,provisional_week_5,uom_medicine_application_data,2026-06-02,Applications marked Week 5 on source page; figures may change slightly.
+MBChB Medicine (5 years),A106,2025,Home,1601,1285,896,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2025,Overseas,704,322,162,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2024,Home,1689,1288,897,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2024,Overseas,703,308,136,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2023,Home,2181,1248,733,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2023,Overseas,795,261,71,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2022,Home,2599,1258,375,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2022,Overseas,861,199,20,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2021,Home,2795,1587,870,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2021,Overseas,599,178,48,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2020,Home,2469,1557,979,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+MBChB Medicine (5 years),A106,2020,Overseas,715,267,119,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+Graduate Entry Medicine,A101,2026,Home,594,157,91,provisional_week_5,uom_medicine_application_data,2026-06-02,Applications marked Week 5 on source page; figures may change slightly.
+Graduate Entry Medicine,A101,2026,Overseas,171,10,6,provisional_week_5,uom_medicine_application_data,2026-06-02,Applications marked Week 5 on source page; figures may change slightly.
+Graduate Entry Medicine,A101,2025,Home,329,120,87,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+Graduate Entry Medicine,A101,2025,Overseas,85,25,17,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+Graduate Entry Medicine,A101,2024,Home,236,73,54,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+Graduate Entry Medicine,A101,2024,Overseas,153,22,16,historical_published,uom_medicine_application_data,2026-06-02,Historical published count.
+BDS Dentistry (5 years),A206,2025,Home,730,351,126,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2025,Overseas,94,15,11,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2024,Home,780,339,107,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2024,Overseas,172,18,8,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2023,Home,858,340,99,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2023,Overseas,146,11,8,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2022,Home,869,306,80,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2022,Overseas,184,12,12,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2021,Home,1018,363,175,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2021,Overseas,83,6,4,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2020,Home,983,537,208,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BDS Dentistry (5 years),A206,2020,Overseas,88,17,11,historical_published,uom_dentistry_application_stats,2026-06-02,Historical information only; do not forecast future cycles.
+BSc Dental Hygiene and Therapy,B840,2025,Home,823,67,18,historical_published,uom_dht_application_stats,2026-06-02,Historical information only; formerly BSc Oral Health and Science until 2023.
+BSc Dental Hygiene and Therapy,B840,2025,Overseas,16,7,2,historical_published,uom_dht_application_stats,2026-06-02,Blank offers_made reflects dash on source page; do not coerce to zero.
+BSc Dental Hygiene and Therapy,B840,2024,Home,660,55,21,historical_published,uom_dht_application_stats,2026-06-02,Historical information only; formerly BSc Oral Health and Science until 2023.
+BSc Dental Hygiene and Therapy,B840,2024,Overseas,148,4,,historical_published,uom_dht_application_stats,2026-06-02,Blank offers_made reflects dash on source page; do not coerce to zero.
+BSc Dental Hygiene and Therapy,B840,2023,Home,488,66,17,historical_published,uom_dht_application_stats,2026-06-02,Historical information only; formerly BSc Oral Health and Science until 2023.
+BSc Dental Hygiene and Therapy,B840,2023,Overseas,137,6,,historical_published,uom_dht_application_stats,2026-06-02,Blank offers_made reflects dash on source page; do not coerce to zero.
+BSc Dental Hygiene and Therapy,B840,2022,Home,329,65,16,historical_published,uom_dht_application_stats,2026-06-02,Historical information only; formerly BSc Oral Health and Science until 2023.
+BSc Dental Hygiene and Therapy,B840,2022,Overseas,76,11,1,historical_published,uom_dht_application_stats,2026-06-02,Blank offers_made reflects dash on source page; do not coerce to zero.

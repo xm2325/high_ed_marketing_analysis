@@ -1,0 +1,10 @@
+﻿metric,value,numeric_value,unit,display_value,source_id,source_as_of,checked_at,notes
+Students,46000+,46000,headcount_lower_bound,"46,000+",uom_facts_2026_02,2026-02,2026-06-02,Primary V5 KPI. Replace V4 value from older About page.
+International students outside EU,14475,14475,headcount,"14,475",uom_facts_2026_02,2026-02,2026-06-02,Do not treat as identical to UCAS/HESA international domicile percentage.
+Staff,almost 12800,12800,approx_headcount,"Almost 12,800",uom_facts_2026_02,2026-02,2026-06-02,Primary V5 KPI.
+Alumni,585000+,585000,headcount_lower_bound,"585,000+",uom_facts_2026_02,2026-02,2026-06-02,Former students in more than 190 countries.
+Alumni countries,190+,190,country_count_lower_bound,190+ countries,uom_facts_2026_02,2026-02,2026-06-02,Use for alumni reach card.
+Student nationalities,170+,170,nationality_count_lower_bound,170+ nationalities,uom_facts_2026_02,2026-02,2026-06-02,Use separately from alumni countries.
+Degree programmes,1000+,1000,programme_count_lower_bound,"1,000+ programmes",uom_facts_2026_02,2026-02,2026-06-02,Optional overview fact.
+Bursary recipients,6000+,6000,student_count_lower_bound,"6,000+ students",uom_facts_2026_02,2026-02,2026-06-02,Manchester Bursary and Undergraduate Access Bursary; 26% of home UG student body.
+Annual bursary investment,11000000+,11000000,GBP_lower_bound,£11m+ annually,uom_facts_2026_02,2026-02,2026-06-02,Manchester Bursary and Undergraduate Access Bursary.

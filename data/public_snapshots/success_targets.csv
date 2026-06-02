@@ -1,0 +1,5 @@
+﻿reference,lifecycle_stage,characteristic,target_group,unit,baseline_year,baseline,milestone_2025_26,milestone_2026_27,milestone_2027_28,milestone_2028_29,source_id
+PTS_1,Completion,Reported disability,Disability reported versus no disability reported,percentage_points_gap,2017-18,3.8,3.4,2.9,2.5,2,uom_app_2025_29
+PTS_2,Attainment,IMD,IMD quintile 1 versus quintile 5,percentage_points_gap,2021-22,13.6,13.6,10.8,8,5.2,uom_app_2025_29
+PTS_3,Attainment,Ethnicity,Black versus White students,percentage_points_gap,2021-22,12.5,12.5,10.3,8,5.8,uom_app_2025_29
+PTS_4,Attainment,Ethnicity,Asian versus White students,percentage_points_gap,2021-22,9.3,9.3,8,6.6,5.3,uom_app_2025_29

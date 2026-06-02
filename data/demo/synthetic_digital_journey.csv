@@ -1,0 +1,97 @@
+date,campaign,audience,channel,content,impressions,sessions,landing_page_views,form_starts,form_completions,event_registrations,applications,opt_outs,data_mode
+2026-04-01,ug_2026_open_day_june,Prospective students,Email,Open Day,3579,299,224,74,52,24,5,3,Synthetic GA4-style demonstration
+2026-04-01,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,5599,1149,894,255,175,31,26,1,Synthetic GA4-style demonstration
+2026-04-01,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,4959,555,417,54,23,3,4,3,Synthetic GA4-style demonstration
+2026-04-01,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,6388,786,577,143,62,22,14,6,Synthetic GA4-style demonstration
+2026-04-01,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,2332,585,526,72,43,18,5,3,Synthetic GA4-style demonstration
+2026-04-01,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,2113,419,307,131,64,5,3,3,Synthetic GA4-style demonstration
+2026-04-08,ug_2026_open_day_june,Prospective students,Email,Open Day,1296,311,297,86,52,13,3,5,Synthetic GA4-style demonstration
+2026-04-08,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,6270,1060,888,252,189,35,45,5,Synthetic GA4-style demonstration
+2026-04-08,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,855,52,39,10,7,3,1,7,Synthetic GA4-style demonstration
+2026-04-08,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,6052,608,538,100,65,30,10,4,Synthetic GA4-style demonstration
+2026-04-08,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,785,90,81,19,9,1,0,5,Synthetic GA4-style demonstration
+2026-04-08,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,927,180,153,42,20,6,1,2,Synthetic GA4-style demonstration
+2026-04-15,ug_2026_open_day_june,Prospective students,Email,Open Day,5160,790,568,211,103,53,6,5,Synthetic GA4-style demonstration
+2026-04-15,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,1065,217,170,31,17,7,4,5,Synthetic GA4-style demonstration
+2026-04-15,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,2460,276,207,67,37,6,10,0,Synthetic GA4-style demonstration
+2026-04-15,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,2926,673,491,202,133,42,7,3,Synthetic GA4-style demonstration
+2026-04-15,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,2863,691,615,230,163,83,18,1,Synthetic GA4-style demonstration
+2026-04-15,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,4126,894,760,236,169,57,44,5,Synthetic GA4-style demonstration
+2026-04-22,ug_2026_open_day_june,Prospective students,Email,Open Day,5974,499,441,178,93,21,12,0,Synthetic GA4-style demonstration
+2026-04-22,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,6111,921,688,278,140,46,29,5,Synthetic GA4-style demonstration
+2026-04-22,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,1326,363,324,42,31,9,2,2,Synthetic GA4-style demonstration
+2026-04-22,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,1302,221,170,68,36,7,4,3,Synthetic GA4-style demonstration
+2026-04-22,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,3090,799,622,231,152,34,9,5,Synthetic GA4-style demonstration
+2026-04-22,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,5148,581,513,151,63,34,17,0,Synthetic GA4-style demonstration
+2026-04-29,ug_2026_open_day_june,Prospective students,Email,Open Day,2633,434,396,64,38,9,6,2,Synthetic GA4-style demonstration
+2026-04-29,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,4986,456,444,55,23,5,5,3,Synthetic GA4-style demonstration
+2026-04-29,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,1907,417,310,134,75,28,5,5,Synthetic GA4-style demonstration
+2026-04-29,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,4059,994,742,118,63,5,19,5,Synthetic GA4-style demonstration
+2026-04-29,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,6924,1876,1756,668,375,89,48,6,Synthetic GA4-style demonstration
+2026-04-29,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,4527,639,483,112,68,15,6,0,Synthetic GA4-style demonstration
+2026-05-06,ug_2026_open_day_june,Prospective students,Email,Open Day,2947,644,582,107,46,10,4,4,Synthetic GA4-style demonstration
+2026-05-06,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,3729,1027,787,174,126,40,7,4,Synthetic GA4-style demonstration
+2026-05-06,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,2901,239,211,78,41,17,3,4,Synthetic GA4-style demonstration
+2026-05-06,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,6592,847,829,156,73,37,6,4,Synthetic GA4-style demonstration
+2026-05-06,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,2016,376,344,121,56,30,17,4,Synthetic GA4-style demonstration
+2026-05-06,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,4797,944,807,235,100,31,21,2,Synthetic GA4-style demonstration
+2026-05-13,ug_2026_open_day_june,Prospective students,Email,Open Day,1369,224,198,50,41,16,2,3,Synthetic GA4-style demonstration
+2026-05-13,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,2792,591,488,189,93,8,14,10,Synthetic GA4-style demonstration
+2026-05-13,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,3679,935,790,300,134,46,40,3,Synthetic GA4-style demonstration
+2026-05-13,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,6821,1850,1438,221,141,71,18,3,Synthetic GA4-style demonstration
+2026-05-13,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,4029,902,780,137,98,40,18,1,Synthetic GA4-style demonstration
+2026-05-13,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,1765,157,152,50,37,15,10,3,Synthetic GA4-style demonstration
+2026-05-20,ug_2026_open_day_june,Prospective students,Email,Open Day,1767,365,272,45,30,14,6,5,Synthetic GA4-style demonstration
+2026-05-20,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,3830,1047,791,153,126,55,38,2,Synthetic GA4-style demonstration
+2026-05-20,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,5831,714,574,242,189,47,28,2,Synthetic GA4-style demonstration
+2026-05-20,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,4805,633,597,73,44,23,8,0,Synthetic GA4-style demonstration
+2026-05-20,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,3488,265,206,30,14,2,1,4,Synthetic GA4-style demonstration
+2026-05-20,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,2667,717,539,130,102,13,18,1,Synthetic GA4-style demonstration
+2026-05-27,ug_2026_open_day_june,Prospective students,Email,Open Day,2722,289,263,88,50,5,2,6,Synthetic GA4-style demonstration
+2026-05-27,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,4208,550,415,118,95,7,6,4,Synthetic GA4-style demonstration
+2026-05-27,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,5261,866,825,110,61,14,8,2,Synthetic GA4-style demonstration
+2026-05-27,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,4958,1159,930,333,160,54,24,4,Synthetic GA4-style demonstration
+2026-05-27,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,706,190,181,69,54,8,10,5,Synthetic GA4-style demonstration
+2026-05-27,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,1378,351,270,51,36,4,8,4,Synthetic GA4-style demonstration
+2026-06-03,ug_2026_open_day_june,Prospective students,Email,Open Day,4430,1116,980,184,81,8,5,5,Synthetic GA4-style demonstration
+2026-06-03,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,4863,664,520,98,80,10,10,0,Synthetic GA4-style demonstration
+2026-06-03,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,5662,1486,1108,374,255,117,57,3,Synthetic GA4-style demonstration
+2026-06-03,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,702,107,90,31,20,6,2,3,Synthetic GA4-style demonstration
+2026-06-03,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,1054,65,53,6,3,1,0,2,Synthetic GA4-style demonstration
+2026-06-03,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,2958,177,130,44,33,13,7,6,Synthetic GA4-style demonstration
+2026-06-10,ug_2026_open_day_june,Prospective students,Email,Open Day,5397,1183,1078,154,68,16,13,4,Synthetic GA4-style demonstration
+2026-06-10,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,5359,716,566,209,109,50,10,1,Synthetic GA4-style demonstration
+2026-06-10,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,5170,650,468,91,51,11,13,5,Synthetic GA4-style demonstration
+2026-06-10,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,3226,469,342,142,106,57,31,5,Synthetic GA4-style demonstration
+2026-06-10,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,3320,423,402,101,58,29,16,2,Synthetic GA4-style demonstration
+2026-06-10,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,5056,377,295,63,37,11,4,5,Synthetic GA4-style demonstration
+2026-06-17,ug_2026_open_day_june,Prospective students,Email,Open Day,4396,937,882,276,156,26,13,6,Synthetic GA4-style demonstration
+2026-06-17,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,2106,343,251,109,76,36,12,0,Synthetic GA4-style demonstration
+2026-06-17,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,4497,452,430,174,109,15,14,4,Synthetic GA4-style demonstration
+2026-06-17,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,1957,481,389,54,37,15,6,2,Synthetic GA4-style demonstration
+2026-06-17,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,6171,702,610,192,124,60,26,4,Synthetic GA4-style demonstration
+2026-06-17,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,6920,602,543,88,37,11,7,0,Synthetic GA4-style demonstration
+2026-06-24,ug_2026_open_day_june,Prospective students,Email,Open Day,2274,560,453,128,106,29,28,4,Synthetic GA4-style demonstration
+2026-06-24,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,5187,566,492,93,39,7,3,1,Synthetic GA4-style demonstration
+2026-06-24,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,1882,273,256,76,32,5,9,10,Synthetic GA4-style demonstration
+2026-06-24,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,6298,1665,1333,465,346,186,18,0,Synthetic GA4-style demonstration
+2026-06-24,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,973,237,204,61,34,15,4,2,Synthetic GA4-style demonstration
+2026-06-24,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,3167,580,529,143,100,30,22,1,Synthetic GA4-style demonstration
+2026-07-01,ug_2026_open_day_june,Prospective students,Email,Open Day,6346,1530,1316,239,168,19,18,2,Synthetic GA4-style demonstration
+2026-07-01,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,5169,804,682,297,154,13,12,1,Synthetic GA4-style demonstration
+2026-07-01,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,2554,589,510,102,65,5,15,5,Synthetic GA4-style demonstration
+2026-07-01,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,5273,341,317,115,63,23,13,4,Synthetic GA4-style demonstration
+2026-07-01,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,6584,1384,1332,405,266,102,44,6,Synthetic GA4-style demonstration
+2026-07-01,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,1917,282,269,101,81,12,15,0,Synthetic GA4-style demonstration
+2026-07-08,ug_2026_open_day_june,Prospective students,Email,Open Day,800,83,76,25,17,3,3,3,Synthetic GA4-style demonstration
+2026-07-08,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,2022,179,152,33,27,8,1,3,Synthetic GA4-style demonstration
+2026-07-08,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,2856,279,214,54,28,10,5,1,Synthetic GA4-style demonstration
+2026-07-08,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,5269,1225,1017,320,134,50,16,9,Synthetic GA4-style demonstration
+2026-07-08,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,5474,1528,1191,490,394,109,52,3,Synthetic GA4-style demonstration
+2026-07-08,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,2575,714,628,184,80,38,5,2,Synthetic GA4-style demonstration
+2026-07-15,ug_2026_open_day_june,Prospective students,Email,Open Day,6482,1067,1016,378,190,48,49,4,Synthetic GA4-style demonstration
+2026-07-15,ug_2026_international_fees,International offer-holders,Email,Fee-value guidance,2431,239,196,62,51,19,2,7,Synthetic GA4-style demonstration
+2026-07-15,ug_2026_accommodation_webinar,Offer-holders,Email,Accommodation webinar,5400,1348,1105,203,125,24,14,0,Synthetic GA4-style demonstration
+2026-07-15,ug_2026_clearing_updates,Clearing prospects,Paid Search,Clearing updates,2280,521,488,120,53,16,8,2,Synthetic GA4-style demonstration
+2026-07-15,ug_2026_contextual_support,Contextual admissions prospects,School outreach,Contextual support,6314,1732,1270,475,328,66,72,3,Synthetic GA4-style demonstration
+2026-07-15,pgt_2026_business_webinar,PGT prospects,Organic Search,PGT webinar,6345,477,466,150,78,22,23,2,Synthetic GA4-style demonstration

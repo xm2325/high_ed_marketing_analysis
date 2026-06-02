@@ -1,0 +1,6 @@
+start_date,end_date,event,population,audience,phase,channel,owner_team,primary_kpi,recommended_action,date_type,source_id
+2025-09-02,2025-09-02,UCAS applications open,UG,Prospective students,Discovery,Email + landing page,Student Marketing,Course-page visits,Launch course discovery journey,Official public date,uom_ug_applying_2026
+2025-10-15,2025-10-15,Medicine and Dentistry deadline,UG,Medicine and Dentistry applicants,Application,Email,Admissions + Marketing,Application completions,Send final form-completeness reminder,Official public date,uom_ug_applying_2026
+2026-01-14,2026-01-14,UG equal-consideration deadline,UG,Most undergraduate applicants,Application,Email + landing page,Student Marketing,Application completions,Send final application support reminder,Official public date,uom_ug_applying_2026
+2026-02-26,2026-02-26,UCAS Extra opens,UG,Eligible applicants without offers,Application,Email + landing page,Student Marketing,Course discovery clicks,Explain eligibility and course discovery,Official public date,uom_ug_applying_2026
+2026-05-13,2026-05-13,University decision day,UG,On-time undergraduate applicants,Decision,Email,Admissions + Marketing,Journey activation rate,Start segmented offer-holder and unsuccessful-applicant journeys,Official public date,uom_ug_applying_2026

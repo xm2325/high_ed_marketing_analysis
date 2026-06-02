@@ -1,0 +1,5 @@
+﻿reference,lifecycle_stage,characteristic,target_group,unit,baseline_year,baseline,milestone_2025_26,milestone_2026_27,milestone_2027_28,milestone_2028_29,source_id,notes
+PTA_1,Access,TUNDRA,TUNDRA quintiles 1 and 2,percent,2021-22,19,20.5,22,23.5,25,uom_app_2025_29,"Milestones are planned values, not measured actuals."
+PTA_2,Access,Free School Meals,Eligible for FSM,percent,2021-22,11.9,12.7,13.5,14.2,15,uom_app_2025_29,"Milestones are planned values, not measured actuals."
+PTA_3,Access,Ethnicity,Young Black undergraduate students,percent,2021-22,5,6.3,7.5,8.8,10,uom_app_2025_29,"Milestones are planned values, not measured actuals."
+PTA_4,Access,Care experience,Young care-experienced entrants,headcount,2021-22,40,42,44,46,49,uom_app_2025_29,"Milestones are planned values, not measured actuals."

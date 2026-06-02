@@ -1,0 +1,10 @@
+﻿category,segment,value,unit,source_id,source_as_of,checked_at
+Domicile,UK students,60,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
+Domicile,EU students,4,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
+Domicile,International students,35,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
+Study level,Undergraduate,67,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
+Study level,Postgraduate,33,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
+Study mode,Full-time,92,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
+Study mode,Part-time,8,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
+Entrant status,Entrant,41,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
+Entrant status,Not an entrant,59,percent,ucas_uom_stats_2026,studyYear=2026,2026-06-02
