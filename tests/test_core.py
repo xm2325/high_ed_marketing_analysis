@@ -57,3 +57,35 @@ def test_crm_triage_and_quality_issue_detection():
     triaged = triage_leads(df)
     assert len(issues) >= 2
     assert triaged.loc[0, "priority_level"] == "Data check"
+
+from marketing_action_tools import (
+    action_plan_to_calendar,
+    build_action_plan,
+    build_measurement_plan,
+    build_workflow_rules,
+    get_playbook,
+    list_objectives,
+)
+
+
+def test_marketing_action_centre_builds_timed_playbook_and_measurement_plan():
+    objective = "Improve international offer-holder conversion"
+    playbook = get_playbook(objective)
+    plan = build_action_plan(objective, playbook.default_anchor_date, .60, 5000, 120)
+    measurement = build_measurement_plan(objective, "Randomised A/B test")
+    workflow = build_workflow_rules(objective)
+    assert len(list_objectives()) >= 5
+    assert len(plan) >= 5
+    assert plan.loc[0, "targeted_records"] == 3000
+    assert "firm_choice" in set(measurement["field"])
+    assert workflow.loc[0, "primary_kpi"] == "Firm-choice conversion"
+
+
+def test_marketing_action_playbook_exports_to_ics_calendar_schema():
+    objective = "Recover incomplete enquiry or support forms"
+    playbook = get_playbook(objective)
+    plan = build_action_plan(objective, playbook.default_anchor_date, .75, 1000, 50)
+    calendar = action_plan_to_calendar(plan)
+    payload = calendar_to_ics(calendar).decode("utf-8")
+    assert "BEGIN:VCALENDAR" in payload
+    assert "Send automated reminder with direct form link" in payload

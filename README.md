@@ -1,19 +1,41 @@
-# University Recruitment Marketing Analytics Tool — V5
+# University Recruitment Marketing Analytics Tool — V5.2
 
-A dynamic Streamlit portfolio prototype for a **Data Marketing and Analytics Officer** application. V5 connects official University of Manchester public-data snapshots, a time-sensitive recruitment campaign calendar, published course-funnel examples, and clearly labelled synthetic workflow demonstrations.
+A dynamic Streamlit portfolio prototype for a **Data Marketing and Analytics Officer** application. V5.2 connects official University of Manchester public-data snapshots, a time-sensitive recruitment campaign calendar, admissions-operations reporting patterns, and clearly labelled synthetic workflow demonstrations.
 
 **This is an independent portfolio prototype. It is not an official University of Manchester system.**
 
-## What changed in V5
+## What changed in V5.2
+
+V5.2 adds a new **Marketing Action Centre** so the dashboard does not stop at descriptive reporting. A selected recruitment objective is converted into:
+
+- an audience definition and consent-aware trigger;
+- a timed communication playbook anchored to an editable date;
+- named owner teams and step-level key performance indicators (KPIs);
+- a primary KPI and guardrail KPI;
+- a CRM workflow rule;
+- a measurement-field specification for an approved internal implementation;
+- downloadable action-plan CSV, measurement-plan CSV, workflow-rule CSV and ICS calendar files.
+
+Five dynamic playbooks are included:
+
+1. improve international offer-holder conversion;
+2. increase Open Day attendance and application starts;
+3. recover incomplete enquiry or support forms;
+4. run a Clearing rapid-response campaign;
+5. improve contextual-access outreach engagement.
+
+The page makes the public-data boundary clear: public evidence can support a marketing hypothesis, but approved internal records and a suitable test design are required to estimate campaign performance.
+
+## Existing V5 functions retained
 
 - Updated institution cards using the February 2026 official facts PDF: `46,000+` students, `Almost 12,800` staff and `585,000+` alumni.
-- Added a dynamic **Recruitment Campaign Calendar** with official UG deadlines, Open Days and Clearing milestones; population, phase, channel, owner and date-range filters; CSV export; ICS export; an upload template; and a UTM tracking builder.
-- Added an upload-ready **Admissions Operations Monitor** that demonstrates UG, PGT and PGR population modes; current-vs-previous-cycle comparison; cycle-week selection; comparable snapshot dates; cascading Faculty → School → Department → Sub-department → Course filters; fee-status filters; UG academic levels; PG month-of-entry and attendance-mode filters; deferrals; course CSV export; and PDF summary generation.
-- Added a synthetic **International Market Monitor** with Top 10, Top 25 and All Markets views.
-- Expanded the public **Published Course Funnel Explorer** to include A106, A101, A206 and B840 routes with provisional and historical-data warnings.
-- Added **CRM Follow-up Queue** data-quality checks and a weekly adviser-capacity worklist.
-- Added a synthetic **Digital Journey Analytics Demo** for acquisition, landing-page, form, event and application signals.
-- Added a source-aware **Data Governance and Function Map** showing how public reporting requirements map to V5 pages.
+- Dynamic **Recruitment Campaign Calendar** with official UG deadlines, Open Days and Clearing milestones; filters; CSV export; ICS export; upload template; and UTM tracking builder.
+- Upload-ready **Admissions Operations Monitor** demonstrating UG, PGT and PGR population modes; current-vs-previous-cycle comparisons; cycle-week selection; comparable snapshot dates; cascading Faculty → School → Department → Sub-department → Course filters; fee-status filters; UG academic levels; PG month-of-entry and attendance-mode filters; deferrals; course CSV export; and PDF summary generation.
+- Synthetic **International Market Monitor** with Top 10, Top 25 and All Markets views.
+- Public **Published Course Funnel Explorer** covering A106, A101, A206 and B840 routes with provisional and historical-data warnings.
+- **CRM Follow-up Queue** with data-quality checks, editable workflow thresholds and a weekly adviser-capacity worklist.
+- Synthetic **Digital Journey Analytics Demo** for acquisition, landing-page, form, event and application signals.
+- Source-aware **Data Governance and Function Map** showing how public reporting requirements map to the portfolio prototype.
 
 ## Public, synthetic and upload-only layers
 
@@ -59,12 +81,13 @@ See `reports/deployment_guide.md` for replacement and deployment steps.
 
 1. Executive Overview
 2. Recruitment Campaign Calendar
-3. Admissions Operations Monitor
-4. International Market Monitor
-5. Published Course Funnel Explorer
-6. Campaign Strategy Builder
-7. Offer-holder Conversion Planner
-8. Access and Outreach Planner
-9. CRM Follow-up Queue
-10. Digital Journey Analytics Demo
-11. Data Governance and Function Map
+3. Marketing Action Centre
+4. Admissions Operations Monitor
+5. International Market Monitor
+6. Published Course Funnel Explorer
+7. Campaign Strategy Builder
+8. Offer-holder Conversion Planner
+9. Access and Outreach Planner
+10. CRM Follow-up Queue
+11. Digital Journey Analytics Demo
+12. Data Governance and Function Map

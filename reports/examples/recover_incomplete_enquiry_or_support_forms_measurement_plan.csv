@@ -1,0 +1,15 @@
+objective,evaluation_design,field,purpose,data_boundary
+Recover incomplete enquiry or support forms,Randomised A/B test,campaign_id,Join activity to the approved campaign definition,Campaign tracking field
+Recover incomplete enquiry or support forms,Randomised A/B test,lead_id,Join consent-aware CRM events to the relevant record,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,consent_status,Check whether marketing communication is permitted,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,form_id,Required for objective-specific measurement or workflow routing,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,form_started,Identify incomplete-form records,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,form_completed,Measure recovery,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,form_start_timestamp,Required for objective-specific measurement or workflow routing,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,form_completion_timestamp,Required for objective-specific measurement or workflow routing,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,email_delivered,Measure delivery,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,email_opened,Measure engagement,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,email_clicked,Measure engagement,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,adviser_task_created,Required for objective-specific measurement or workflow routing,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,opt_out,Monitor the communication guardrail,Approved internal field required
+Recover incomplete enquiry or support forms,Randomised A/B test,timestamp,Support sequence timing and time-to-action reporting,Campaign tracking field

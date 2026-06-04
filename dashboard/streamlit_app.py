@@ -1,4 +1,4 @@
-"""University recruitment marketing analytics portfolio prototype — V5.
+"""University recruitment marketing analytics portfolio prototype — V5.2.
 
 Public University of Manchester data are clearly separated from synthetic
 records used to demonstrate protected internal workflows.
@@ -33,6 +33,15 @@ from admissions_tools import (
 from calendar_tools import CALENDAR_REQUIRED, build_utm_url, calendar_to_ics, next_event, normalise_calendar
 from crm_tools import CRM_REQUIRED, crm_quality_issues, triage_leads
 from strategy_tools import OfferHolderScenario, access_registration_scenario, campaign_plan, simulate_offer_holder
+from marketing_action_tools import (
+    action_plan_to_calendar,
+    build_action_plan,
+    build_measurement_plan,
+    build_workflow_rules,
+    get_playbook,
+    list_objectives,
+    slugify,
+)
 
 PUBLIC = ROOT / "data" / "public_snapshots"
 DEMO = ROOT / "data" / "demo"
@@ -40,7 +49,7 @@ UPLOAD = ROOT / "data" / "upload_schema"
 REPORTS = ROOT / "reports"
 
 st.set_page_config(
-    page_title="Manchester Recruitment Marketing Analytics — V5",
+    page_title="Manchester Recruitment Marketing Analytics — V5.2",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -97,7 +106,7 @@ def source_footer(text: str = "Public-data sections use committed snapshots with
 
 def overview(data: dict[str, pd.DataFrame]) -> None:
     st.title("University Recruitment Marketing Analytics Tool")
-    st.subheader("University of Manchester public-data portfolio prototype — V5")
+    st.subheader("University of Manchester public-data portfolio prototype — V5.2")
     st.write(
         "Use public recruitment signals to plan campaigns, monitor published admissions funnels, schedule time-sensitive activity, and demonstrate how authorised internal records could feed operational dashboards."
     )
@@ -139,7 +148,7 @@ def overview(data: dict[str, pd.DataFrame]) -> None:
     c1, c2, c3 = st.columns(3)
     c1.info("**Time-sensitive campaign planning**\n\nOfficial UG deadlines, Open Days and Clearing dates feed a filterable calendar with CSV and ICS export.")
     c2.info("**Admissions operations patterns**\n\nA synthetic upload-ready monitor mirrors UG/PG cycle, status, fee, domicile and hierarchy filters described in reporting guidance.")
-    c3.info("**Marketing systems workflow**\n\nSynthetic CRM and GA4-style records demonstrate consent checks, follow-up queues, UTM tracking and data-quality monitoring.")
+    c3.info("**Marketing systems workflow**\n\nSynthetic CRM and GA4-style records demonstrate consent checks, follow-up queues, UTM tracking and data-quality monitoring.\n\n**New in V5.2:** a Marketing Action Centre converts selected objectives into timed playbooks and measurement plans.")
     source_footer("Independent portfolio prototype. It is not an official University of Manchester system.")
 
 
@@ -232,6 +241,105 @@ def campaign_calendar(data: dict[str, pd.DataFrame]) -> None:
     st.code(tagged, language=None)
     st.download_button("Download tracking row CSV", csv_bytes(pd.DataFrame([{"base_url": base_url, "tagged_url": tagged, "utm_source": source, "utm_medium": medium, "utm_campaign": campaign, "utm_content": content}])), "utm_tracking_row.csv", "text/csv")
     source_footer("Official date rows are committed snapshots. Refresh live pages before a real campaign launch because dates and availability can change.")
+
+
+def marketing_action_centre(data: dict[str, pd.DataFrame]) -> None:
+    page_intro(
+        "Marketing Action Centre",
+        "Turn a recruitment-marketing objective into a timed playbook, CRM workflow rule and measurement plan. Public signals support the problem definition; expected impact must be tested with approved internal records.",
+        [("Action-oriented", "#0f766e"), ("Editable planning template", "#7c3aed"), ("Internal evaluation required", "#9f1239")],
+    )
+    st.markdown("<div class='section-note'><b>Purpose:</b> move from descriptive insight to a clear action: audience → trigger → channel → timing → owner → KPI → evaluation.</div>", unsafe_allow_html=True)
+
+    left, right = st.columns([1.05, 1])
+    with left:
+        objective = st.selectbox("Marketing objective", list_objectives())
+        playbook = get_playbook(objective)
+        anchor = st.date_input(playbook.anchor_label, value=playbook.default_anchor_date, key="action_centre_anchor")
+        c1, c2, c3 = st.columns(3)
+        audience_size = int(c1.number_input("Potential audience size", 10, 100000, 5000, 50))
+        targeted_share = float(c2.slider("Targeted share", 0.0, 1.0, .60, .05))
+        adviser_capacity = int(c3.number_input("Weekly adviser capacity", 0, 5000, 120, 10))
+        evaluation_design = st.selectbox("Evaluation design", ["Randomised A/B test", "Phased rollout", "Operational monitoring only"], index=0)
+    with right:
+        st.markdown("### Decision brief")
+        st.write(f"**Audience:** {playbook.audience}")
+        st.write(f"**Problem:** {playbook.problem_statement}")
+        st.write(f"**Trigger:** `{playbook.trigger}`")
+        st.write(f"**Primary KPI:** {playbook.primary_kpi}")
+        st.write(f"**Guardrail KPI:** {playbook.guardrail_kpi}")
+        st.write(f"**Owner:** {playbook.owner_team}")
+
+    st.markdown("### Evidence and data boundary")
+    e1, e2 = st.columns(2)
+    e1.info("**Evidence basis**\n\n" + playbook.evidence_basis)
+    e2.warning("**Protected-data boundary**\n\n" + playbook.public_data_boundary)
+
+    plan = build_action_plan(objective, anchor, targeted_share, audience_size, adviser_capacity)
+    measurement = build_measurement_plan(objective, evaluation_design)
+    workflow = build_workflow_rules(objective)
+    target_records = int(plan.targeted_records.iloc[0]) if not plan.empty else 0
+
+    st.markdown("### Operational summary")
+    k1, k2, k3, k4 = st.columns(4)
+    k1.metric("Potential audience", f"{audience_size:,}")
+    k2.metric("Targeted records", f"{target_records:,}", f"{targeted_share:.0%} of audience")
+    k3.metric("Campaign steps", f"{len(plan):,}")
+    k4.metric("Weekly adviser capacity", f"{adviser_capacity:,}")
+
+    timeline = plan.copy()
+    timeline["event_date"] = pd.to_datetime(timeline["event_date"])
+    timeline["display_end"] = timeline["event_date"] + pd.Timedelta(days=1)
+    fig = px.timeline(
+        timeline,
+        x_start="event_date",
+        x_end="display_end",
+        y="action",
+        color="channel",
+        hover_data=["timing", "owner_team", "step_kpi", "status"],
+        title="Timed marketing playbook",
+    )
+    fig.update_yaxes(autorange="reversed", title="")
+    fig.update_xaxes(title="Planned action date")
+    fig.update_layout(height=max(430, 52 * len(timeline) + 180), legend_title_text="Channel")
+    st.plotly_chart(fig, width="stretch")
+
+    tabs = st.tabs(["Action plan", "Measurement plan", "CRM workflow rule", "Chat-ready summary"])
+    with tabs[0]:
+        show_cols = ["step", "timing", "event_date", "action", "channel", "owner_team", "step_kpi", "status"]
+        st.dataframe(plan[show_cols], width="stretch", hide_index=True)
+    with tabs[1]:
+        st.caption("Fields are a design specification for an approved internal implementation; the public site does not claim access to them.")
+        st.dataframe(measurement, width="stretch", hide_index=True)
+    with tabs[2]:
+        st.dataframe(workflow, width="stretch", hide_index=True)
+    with tabs[3]:
+        st.code(
+            f"Objective: {playbook.objective}\n"
+            f"Audience: {playbook.audience}\n"
+            f"Action: {playbook.workflow_rule}\n"
+            f"Primary KPI: {playbook.primary_kpi}\n"
+            f"Guardrail KPI: {playbook.guardrail_kpi}\n"
+            f"Evaluation: {evaluation_design}\n"
+            "Boundary: public evidence informs the plan; approved internal records are required to estimate campaign performance.",
+            language=None,
+        )
+
+    action_calendar = action_plan_to_calendar(plan)
+    slug = slugify(objective)
+    d1, d2, d3, d4 = st.columns(4)
+    d1.download_button("Download action plan CSV", csv_bytes(plan), f"{slug}_action_plan.csv", "text/csv")
+    d2.download_button("Download measurement plan CSV", csv_bytes(measurement), f"{slug}_measurement_plan.csv", "text/csv")
+    d3.download_button("Download workflow rule CSV", csv_bytes(workflow), f"{slug}_workflow_rule.csv", "text/csv")
+    d4.download_button("Download playbook ICS", calendar_to_ics(action_calendar), f"{slug}_playbook.ics", "text/calendar")
+
+    st.markdown("### Connect the playbook to the rest of the tool")
+    l1, l2, l3, l4 = st.columns(4)
+    l1.info("**Calendar**\n\nAdd time-sensitive actions and owners.")
+    l2.info("**UTM tracking**\n\nTag approved external campaign links.")
+    l3.info("**CRM queue**\n\nRoute consent-aware records to the next action.")
+    l4.info("**Digital analytics**\n\nReport engagement, conversion and guardrails.")
+    source_footer("V5.2 planning templates are operational examples. They do not estimate causal impact from public data. Use approved internal testing and governance before implementation.")
 
 
 def admissions_operations(data: dict[str, pd.DataFrame]) -> None:
@@ -606,27 +714,49 @@ def governance(data: dict[str, pd.DataFrame]) -> None:
     st.markdown("### Display and governance rules")
     st.dataframe(data["quality_rules"], width="stretch", hide_index=True)
     st.markdown("### StaffNet-guide function mapping")
-    mapping = pd.read_csv(REPORTS / "staffnet_function_mapping.csv")
+    # Prefer the report copy, but retain a data-layer fallback so an optional
+    # documentation-file upload mistake does not break the public app.
+    mapping_path = REPORTS / "staffnet_function_mapping.csv"
+    mapping_fallback = PUBLIC / "staffnet_function_mapping.csv"
+    if mapping_path.exists():
+        mapping = pd.read_csv(mapping_path)
+    elif mapping_fallback.exists():
+        mapping = pd.read_csv(mapping_fallback)
+        st.info("Using the packaged data-layer copy of the function mapping. The optional reports copy was not found.")
+    else:
+        mapping = pd.DataFrame(
+            columns=["Guide function", "Implemented V5 location", "Data mode", "Implementation note"]
+        )
+        st.warning("Function-mapping CSV is not available in this deployment. Upload reports/staffnet_function_mapping.csv or data/public_snapshots/staffnet_function_mapping.csv.")
     st.dataframe(mapping, width="stretch", hide_index=True)
     st.download_button("Download function mapping CSV", csv_bytes(mapping), "staffnet_function_mapping.csv", "text/csv")
     st.markdown("### Integration roadmap")
     st.dataframe(data["integration"], width="stretch", hide_index=True)
     c1, c2 = st.columns(2)
-    c1.download_button("Download quick user guide", (REPORTS / "quick_user_guide.md").read_bytes(), "quick_user_guide.md", "text/markdown")
-    c2.download_button("Download deployment guide", (REPORTS / "deployment_guide.md").read_bytes(), "deployment_guide.md", "text/markdown")
+    quick_guide = REPORTS / "quick_user_guide.md"
+    deployment_guide = REPORTS / "deployment_guide.md"
+    if quick_guide.exists():
+        c1.download_button("Download quick user guide", quick_guide.read_bytes(), "quick_user_guide.md", "text/markdown")
+    else:
+        c1.caption("Quick user guide is not included in this deployment.")
+    if deployment_guide.exists():
+        c2.download_button("Download deployment guide", deployment_guide.read_bytes(), "deployment_guide.md", "text/markdown")
+    else:
+        c2.caption("Deployment guide is not included in this deployment.")
     st.warning("A production implementation would require data-protection review, role-based access, retention rules, audit logs, approved metric definitions, accessibility checks, user training and organisation-approved hosting.")
 
 
 def main() -> None:
     data = load_data()
     with st.sidebar:
-        st.markdown("## 🎓 Recruitment analytics V5")
+        st.markdown("## 🎓 Recruitment analytics V5.2")
         st.caption("Independent portfolio prototype")
         page = st.radio(
             "Page",
             [
                 "Executive Overview",
                 "Recruitment Campaign Calendar",
+                "Marketing Action Centre",
                 "Admissions Operations Monitor",
                 "International Market Monitor",
                 "Published Course Funnel Explorer",
@@ -643,12 +773,14 @@ def main() -> None:
             st.write("Official public data where available. Synthetic records for protected internal workflows. Uploaded files remain session-scoped in this app design.")
         if (REPORTS / "quick_user_guide.md").exists():
             st.download_button("Download quick user guide", (REPORTS / "quick_user_guide.md").read_bytes(), "quick_user_guide.md", "text/markdown", width="stretch")
-        st.caption("Version 5 · public portfolio mode")
+        st.caption("Version 5.2 · public portfolio mode")
 
     if page == "Executive Overview":
         overview(data)
     elif page == "Recruitment Campaign Calendar":
         campaign_calendar(data)
+    elif page == "Marketing Action Centre":
+        marketing_action_centre(data)
     elif page == "Admissions Operations Monitor":
         admissions_operations(data)
     elif page == "International Market Monitor":

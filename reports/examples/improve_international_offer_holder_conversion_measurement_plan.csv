@@ -1,0 +1,14 @@
+objective,evaluation_design,field,purpose,data_boundary
+Improve international offer-holder conversion,Randomised A/B test,campaign_id,Join activity to the approved campaign definition,Campaign tracking field
+Improve international offer-holder conversion,Randomised A/B test,lead_id,Join consent-aware CRM events to the relevant record,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,consent_status,Check whether marketing communication is permitted,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,domicile_group,Required for objective-specific measurement or workflow routing,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,offer_made,Required for objective-specific measurement or workflow routing,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,reply_received,Required for objective-specific measurement or workflow routing,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,email_delivered,Measure delivery,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,email_opened,Measure engagement,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,email_clicked,Measure engagement,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,webinar_registered,Required for objective-specific measurement or workflow routing,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,firm_choice,Measure offer-holder conversion,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,opt_out,Monitor the communication guardrail,Approved internal field required
+Improve international offer-holder conversion,Randomised A/B test,timestamp,Support sequence timing and time-to-action reporting,Campaign tracking field

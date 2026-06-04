@@ -1,9 +1,12 @@
-.PHONY: demo test run
+.PHONY: test run data check
 
-demo:
+data:
 	python src/generate_demo_data.py
 
-test:
+check:
+	python -m py_compile dashboard/streamlit_app.py src/*.py
+
+test: check
 	pytest -q
 
 run:
